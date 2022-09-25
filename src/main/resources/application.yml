@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  datasource:
+      druid:
+        driver-class-name: oracle.jdbc.driver.OracleDriver
+        url: jdbc:oracle:thin:@us71jm69utwg1dli_tpurgent?TNS_ADMIN=/Users/gavin/tools/oracleWallet
+        username: ADMIN
+        password: Wg141225!!!!!
+        initial-size: 10
+        min-idle: 10
+        max-active: 20
+  application:
+    name: PoolSizeProject
+mybatis-plus:
+  global-config:
+    banner: false
